@@ -1,0 +1,23 @@
+{
+  "name": "spring-security-exam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "maven": "^4.7.0",
+    "node": "^12.12.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.0",
+    "tomcat": "^1.0.0",
+    "uws": "^100.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
