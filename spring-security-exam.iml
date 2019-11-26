@@ -20,6 +20,9 @@
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/devcolibri/secure/config/SecurityConfig.java</file>
           <file>file://$MODULE_DIR$/src/main/java/com/devcolibri/secure/config/WebAppConfig.java</file>
+          <file>file://$MODULE_DIR$/src/test/recourses/applicationContext-security.xml</file>
+          <file>file://$MODULE_DIR$/src/test/recourses/applicationContext-web.xml</file>
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring/applicationContext.xml</file>
         </fileset>
       </configuration>
     </facet>
