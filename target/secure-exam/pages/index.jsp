@@ -35,13 +35,15 @@
         <p class="lead">Please find the button and decide what are you going to do</p>
         <sec:authorize access="!isAuthenticated()">
             <p><a class="btn btn-lg btn-success" href="<c:url value="/webadmin" />" role="button">Get In</a></p>
-        <!-- <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Get In</a></p> -->
         </sec:authorize>
         <sec:authorize access="isAuthenticated()">
             <p>Your login name is: <sec:authentication property="principal.username" /></p>
             <p><a class="btn btn-lg btn-danger" href="<c:url value="/logout" />" role="button">Get Out</a></p>
 
         </sec:authorize>
+        <p class="lead">Let is try to do new button here</p>
+        <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">Get In</a></p>
+
     </div>
 
     <div class="footer">
